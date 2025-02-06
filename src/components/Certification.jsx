@@ -12,7 +12,7 @@ const certifications = [
     },
     {
         name: 'Microsoft Certified: Azure Fundamentals',
-        period: '17 Jan 2024 - lifetime',
+        period: '21 Jan 2025 - lifetime',
         description: 'I successfully completed the Microsoft Certified: Azure Fundamentals exam, scoring 880 out of 1000, well above the cutoff of 700. This certification validates my foundational knowledge of Microsoft Azure, demonstrating my proficiency in cloud services and Azure’s core functionalities.',
         link: 'https://drive.google.com/file/d/1lYSwgLLEuHologVw2J59BXW9bfd417Lf/view?usp=sharing'
     },
