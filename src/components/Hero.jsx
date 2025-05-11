@@ -102,14 +102,32 @@ const Hero = () => {
             </motion.div>
 
 
-            <motion.img 
-                src={profilepic}
-                className="w-[300px] md:w-[450px]"
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
-            />
+            <div className="relative flex justify-center items-start w-full">
+  {/* Nail */}
+  <div className="absolute top-0 z-30 w-3 h-3 bg-gray-700 rounded-full shadow-md" />
+
+  {/* Wire */}
+  <div className="absolute top-0 z-20 w-px h-[60px] bg-gray-500" />
+
+  {/* Pendulum swing from nail */}
+  <motion.div
+    className="origin-top w-[70vw] max-w-[300px] md:max-w-[450px] mt-[60px] rounded-2xl border-[10px] border-gray-300 shadow-xl bg-white"
+    initial={{ rotate: -5 }}
+    animate={{ rotate: [ -5, 5, -5 ] }}
+    transition={{
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }}
+  >
+    <img
+      src={profilepic}
+      alt="Profile"
+      className="w-full h-full object-cover rounded-xl"
+    />
+  </motion.div>
+</div>
+
         </div>
 
         <motion.div
