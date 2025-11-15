@@ -15,7 +15,7 @@ const projects = [
         title:"Project #1",
         description:"Bitebuzz – A sleek food ordering app built with React, Tailwind CSS, Redux Toolkit, and Firestore, featuring secure payments, AI-powered recipes, and role-based access.",
         links:{
-            site:"https://bitebuzz0070.netlify.app/",
+            site:"https://bitebuzz-iatz.vercel.app/",
             github:"https://github.com/MohammadAdnan242/Bitebuzz"
         },
     },
